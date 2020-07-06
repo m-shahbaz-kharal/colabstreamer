@@ -40,7 +40,7 @@ def _combo_installer(all_packages):
   cache.commit()
 
 def _install_everything():
-  packages_to_install = ["xvfb", "xserver-xorg", "mesa-utils", "xinit", "xdotool",
+  packages_to_install = ["xvfb", "xserver-xorg", "mesa-utils", "xinit", "xdotool", "pulseaudio",
                 "linux-generic", "xterm", "htop", "i3", "xloadimage", "libgtk2.0-0", "libgconf-2-4"]
 
   _combo_installer(packages_to_install)
